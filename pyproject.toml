@@ -1,0 +1,29 @@
+[project]
+name = "hamburg-bike-lanes"
+version = "0.1.0"
+description = "Tools to process, analyze, and compare Hamburg's bike network"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.9.27,<0.10.0"]
+build-backend = "uv_build"
+
+dependencies = [
+    "geopandas>=0.14.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "shapely>=2.0.0",
+    "pyogrio>=0.7.0",
+    "fiona>=1.9.0",
+    "pretty-errors>=1.2.0",
+    "pytest>=9.0.2"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/andredaa/hamburg_bike_lanes"
+Repository = "https://github.com/andredaa/hamburg_bike_lanes"
+Issues = "https://github.com/andredaa/hamburg_bike_lanes/issues"
+
